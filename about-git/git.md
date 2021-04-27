@@ -16,3 +16,11 @@ Git reset —hard origin/master   重新取master分支的代码
 ```
 
 command + e 显示文件列表，
+
+
+# git push的时候报403的错误
+
+修改.git目录下的config文件 URL这一行。
+
+url = https://GitHub名字:GitHub密码@github.com/Daemongy/NanoDiaryAndroid.git
+之后再push就行了
