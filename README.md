@@ -1,2 +1,1 @@
-# orange-notes
-orange's notes
+# notes
