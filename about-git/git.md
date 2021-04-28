@@ -24,3 +24,14 @@ command + e 显示文件列表，
 
 url = https://GitHub名字:GitHub密码@github.com/Daemongy/NanoDiaryAndroid.git
 之后再push就行了
+
+
+# git pull 报port 443错误
+```console
+git config --list
+# 查看git config信息，git proxy信息
+# 设置git config proxy
+git config --global http.proxy http://F7688906:LPnXfx61@10.191.131.15:3128
+# 格式，协议 用户名: 密码@地址:端口
+# [protocol://][user[:password]@]proxyhost[:port]
+```
