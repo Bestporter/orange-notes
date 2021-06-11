@@ -1,0 +1,6 @@
+## 使gitignore生效
+```shell
+git rm -r --cached .
+git reset HEAD --hard
+git status
+```
