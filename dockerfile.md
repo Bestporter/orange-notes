@@ -26,4 +26,5 @@ services:
     ports:
       - "8001:8000"
 ```
-
+[Docker Practice](https://vuepress.mirror.docker-practice.com/compose/introduction/)
+`docker-compose up`启动
